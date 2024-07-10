@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Z Coin
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Başlarken
 
-## Get started
+Bu proje için gerekli olan kurulum ve başlatma adımları aşağıda detaylandırılmıştır.
 
-1. Install dependencies
+### Gereksinimler
 
-   ```bash
-   npm install
-   ```
+- [Node.js](https://nodejs.org/) (v14 veya üzeri)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Bir paket yöneticisi (npm veya yarn)
 
-2. Start the app
+### Proje Kurulumu
 
-   ```bash
-    npx expo start
-   ```
+Projeyi klonlayın:
 
-In the output, you'll find options to open the app in a
+git clone https://github.com/enesduman/zcoin.git
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+cd zcoin
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Paket Kurulumu
 
-## Get a fresh project
+npm install
 
-When you're ready, run:
+# veya
 
-```bash
-npm run reset-project
-```
+yarn install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Proje çalıştırma
 
-## Learn more
+npm start
 
-To learn more about developing your project with Expo, look at the following resources:
+# veya
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+yarn start
